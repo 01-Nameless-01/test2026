@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 24px 15px;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.portfolio{
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.filter-list{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 72px;
+  padding: 0;
+}
+
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.portfolio-item{
+  width: calc((100% - 48px) / 3);
+}

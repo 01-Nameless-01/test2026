@@ -1,0 +1,77 @@
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+.logo{
+  font-family: 'Raleway', sans-serif;
+  color: #4D5AE5;
+  font-size: 18px;
+  font-weight: bold;
+}
+.logo2{
+  font-family: 'Raleway', sans-serif;
+  color: #2E2F42;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nav_list{
+  font-family: Roboto, sans-serif;
+  display: flex;
+  gap: 40px;
+}
+.nav_list a{
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+.nav_list a:hover{
+  color: #4D5AE5;
+}
+.contacts_list{
+  font-family: Roboto, sans-serif;
+  display: flex;
+  gap: 40px;
+}
+.contacts_list a{
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+  transition: color 0.2s ease;
+}
+.contacts_list a:hover{
+  color: #4D5AE5;
+}
+
+.filter-btn{
+  padding: 12px 24px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #4D5AE5;
+  background-color: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.filter-btn:hover{
+  background-color: #c8d0ed;
+}
+.filter-btn.active{
+  color: #fff;
+  background-color: #404BBF;
+}
+
+.portfolio-link{
+  display: block;
+  text-decoration: none;
+}
+.portfolio-img{
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #E7E9FC;
+}
